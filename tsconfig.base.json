@@ -11,6 +11,19 @@
     "lib": ["ES2022", "dom"],
     "baseUrl": "./",
     "paths": {
+      "@smartfood/recipes/feature": ["modules/recipes/feature/src/index.ts"],
+      "@smartfood/recipes/feature/detail": [
+        "modules/recipes/feature/detail/src/index.ts"
+      ],
+      "@smartfood/recipes/feature/list": [
+        "modules/recipes/feature/list/src/index.ts"
+      ],
+      "@smartfood/recipes/feature/shell": [
+        "modules/recipes/feature/shell/src/index.ts"
+      ],
+      "@smartfood/recipes/ui/recipe-card": [
+        "modules/recipes/ui/recipe-card/src/index.ts"
+      ],
       "@smartfood/shell/feature": ["modules/shell/feature/src/index.ts"],
       "@smartfood/shell/ui/layout": ["modules/shell/ui/layout/src/index.ts"],
       "@smartfood/shell/ui/main-view": [

@@ -1,0 +1,52 @@
+{
+  "name": "recipe-card",
+  "$schema": "../../../../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "modules/recipes/ui/recipe-card/src",
+  "prefix": "lib",
+  "tags": [],
+  "projectType": "library",
+  "targets": {
+    "build": {
+      "executor": "@nx/angular:ng-packagr-lite",
+      "outputs": ["{workspaceRoot}/dist/{projectRoot}"],
+      "options": {
+        "project": "modules/recipes/ui/recipe-card/ng-package.json",
+        "tailwindConfig": "modules/recipes/ui/recipe-card/tailwind.config.js"
+      },
+      "configurations": {
+        "production": {
+          "tsConfig": "modules/recipes/ui/recipe-card/tsconfig.lib.prod.json"
+        },
+        "development": {
+          "tsConfig": "modules/recipes/ui/recipe-card/tsconfig.lib.json"
+        }
+      },
+      "defaultConfiguration": "production"
+    },
+    "test": {
+      "executor": "@nx/jest:jest",
+      "outputs": ["{workspaceRoot}/coverage/{projectRoot}"],
+      "options": {
+        "jestConfig": "modules/recipes/ui/recipe-card/jest.config.ts",
+        "passWithNoTests": true
+      },
+      "configurations": {
+        "ci": {
+          "ci": true,
+          "codeCoverage": true
+        }
+      }
+    },
+    "lint": {
+      "executor": "@nx/eslint:lint",
+      "outputs": ["{options.outputFile}"],
+      "options": {
+        "lintFilePatterns": [
+          "modules/recipes/ui/recipe-card/**/*.ts",
+          "modules/recipes/ui/recipe-card/**/*.html",
+          "modules/recipes/ui/recipe-card/package.json"
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "run": {
+    "command": "nx serve",
+    "startTime": "2023-11-01T15:20:45.455Z",
+    "endTime": "2023-11-01T15:22:51.305Z",
+    "inner": false
+  },
+  "tasks": [
+    {
+      "taskId": "smartfood-web-fe:serve:development",
+      "target": "serve",
+      "projectName": "smartfood-web-fe",
+      "hash": "12442435788926105452",
+      "startTime": "2023-11-01T15:20:45.458Z",
+      "endTime": "2023-11-01T15:22:51.305Z",
+      "params": "",
+      "cacheStatus": "cache-miss",
+      "status": 1
+    }
+  ]
+}
