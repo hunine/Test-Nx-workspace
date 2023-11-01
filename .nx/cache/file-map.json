@@ -118,7 +118,7 @@
         },
         {
           "file": "modules/shell/ui/main-view/src/lib/main-view.component.html",
-          "hash": "17806905239473484840"
+          "hash": "5038523267550528873"
         },
         {
           "file": "modules/shell/ui/main-view/src/lib/main-view.component.scss",
@@ -214,7 +214,7 @@
         },
         {
           "file": "modules/shell/ui/layout/src/lib/layout.component.html",
-          "hash": "12828419333797935804"
+          "hash": "10327261249779254122"
         },
         {
           "file": "modules/shell/ui/layout/src/lib/layout.component.scss",
@@ -595,7 +595,7 @@
         },
         {
           "file": ".nx/cache/cloud/verify.lock",
-          "hash": "6827365399645462065"
+          "hash": "17117096711489982479"
         },
         {
           "file": ".nx/cache/d/daemon.log",
@@ -607,7 +607,7 @@
         },
         {
           "file": ".nx/cache/file-map.json",
-          "hash": "7367905607779416201"
+          "hash": "966930285779151683"
         },
         {
           "file": ".nx/cache/lockfile.hash",
@@ -838,6 +838,10 @@
         {
           "file": ".nx/cache/terminalOutputs/1400060037527147575",
           "hash": "2631279291702935250"
+        },
+        {
+          "file": ".nx/cache/terminalOutputs/11636307066151105991",
+          "hash": "14413632353023539488"
         }
       ],
       "top-bar": [
@@ -876,7 +880,7 @@
         },
         {
           "file": "modules/shell/ui/top-bar/src/lib/top-bar.component.html",
-          "hash": "771563740265515210"
+          "hash": "7858410624023824554"
         },
         {
           "file": "modules/shell/ui/top-bar/src/lib/top-bar.component.scss",
@@ -972,7 +976,7 @@
         },
         {
           "file": "modules/shell/ui/side-bar/src/lib/side-bar.component.html",
-          "hash": "4752857657548023539"
+          "hash": "5038523267550528873"
         },
         {
           "file": "modules/shell/ui/side-bar/src/lib/side-bar.component.scss",

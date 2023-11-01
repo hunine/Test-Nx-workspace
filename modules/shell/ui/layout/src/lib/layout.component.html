@@ -1,13 +1,15 @@
-<div class="container flex flex-col h-screen">
-  <div class="header-container">
+<div class="flex flex-col h-screen w-full">
+  <div class="container__header h-14">
     <lib-top-bar></lib-top-bar>
   </div>
-  <div class="body-container flex">
-    <div class="side-bar-container">
-      <lib-side-bar></lib-side-bar>
-    </div>
-    <div class="main-view-container">
-      <lib-main-view></lib-main-view>
+  <div class="container__body my-0 mx-auto flex-1 py-0 px-24 w-11/12">
+    <div class="grid grid-cols-12 h-full">
+      <div class="container__side-bar col-span-3">
+        <lib-side-bar></lib-side-bar>
+      </div>
+      <div class="container__main-view col-span-9">
+        <lib-main-view></lib-main-view>
+      </div>
     </div>
   </div>
 </div>
