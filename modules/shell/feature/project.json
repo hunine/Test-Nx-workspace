@@ -1,0 +1,51 @@
+{
+  "name": "web-shell",
+  "$schema": "../../../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "modules/shell/feature/src",
+  "prefix": "lib",
+  "tags": [],
+  "projectType": "library",
+  "targets": {
+    "build": {
+      "executor": "@nx/angular:ng-packagr-lite",
+      "outputs": ["{workspaceRoot}/dist/{projectRoot}"],
+      "options": {
+        "project": "modules/shell/feature/ng-package.json"
+      },
+      "configurations": {
+        "production": {
+          "tsConfig": "modules/shell/feature/tsconfig.lib.prod.json"
+        },
+        "development": {
+          "tsConfig": "modules/shell/feature/tsconfig.lib.json"
+        }
+      },
+      "defaultConfiguration": "production"
+    },
+    "test": {
+      "executor": "@nx/jest:jest",
+      "outputs": ["{workspaceRoot}/coverage/{projectRoot}"],
+      "options": {
+        "jestConfig": "modules/shell/feature/jest.config.ts",
+        "passWithNoTests": true
+      },
+      "configurations": {
+        "ci": {
+          "ci": true,
+          "codeCoverage": true
+        }
+      }
+    },
+    "lint": {
+      "executor": "@nx/eslint:lint",
+      "outputs": ["{options.outputFile}"],
+      "options": {
+        "lintFilePatterns": [
+          "modules/shell/feature/**/*.ts",
+          "modules/shell/feature/**/*.html",
+          "modules/shell/feature/package.json"
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "name": "layout",
+  "$schema": "../../../../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "modules/shell/ui/layout/src",
+  "prefix": "smf",
+  "tags": [],
+  "projectType": "library",
+  "targets": {
+    "build": {
+      "executor": "@nx/angular:ng-packagr-lite",
+      "outputs": ["{workspaceRoot}/dist/{projectRoot}"],
+      "options": {
+        "project": "modules/shell/ui/layout/ng-package.json",
+        "tailwindConfig": "modules/shell/ui/layout/tailwind.config.js"
+      },
+      "configurations": {
+        "production": {
+          "tsConfig": "modules/shell/ui/layout/tsconfig.lib.prod.json"
+        },
+        "development": {
+          "tsConfig": "modules/shell/ui/layout/tsconfig.lib.json"
+        }
+      },
+      "defaultConfiguration": "production"
+    },
+    "test": {
+      "executor": "@nx/jest:jest",
+      "outputs": ["{workspaceRoot}/coverage/{projectRoot}"],
+      "options": {
+        "jestConfig": "modules/shell/ui/layout/jest.config.ts",
+        "passWithNoTests": true
+      },
+      "configurations": {
+        "ci": {
+          "ci": true,
+          "codeCoverage": true
+        }
+      }
+    },
+    "lint": {
+      "executor": "@nx/eslint:lint",
+      "outputs": ["{options.outputFile}"],
+      "options": {
+        "lintFilePatterns": [
+          "modules/shell/ui/layout/**/*.ts",
+          "modules/shell/ui/layout/**/*.html",
+          "modules/shell/ui/layout/package.json"
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,1103 @@
+[36m⠋[39m Generating browser application bundles (phase: setup)...[2K[1G[36m⠙[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠹[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠸[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠼[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠴[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠦[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠧[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠇[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠏[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠋[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠙[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠹[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠸[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠼[39m Generating browser application bundles (phase: sealing)...[2K[1G[32m✔[39m Browser application bundle generation complete.
+[37m[39m
+[37m[0m[1mInitial Chunk Files[22m  [2m | [22m[1mNames[22m        [2m | [22m [1mRaw Size[22m[0m[39m
+[37m[0m[92mvendor.js[39m[37m            [2m | [22mvendor       [2m | [22m  [96m2.35 MB[39m[37m[2m | [22m[0m[39m
+[37m[0m[92mpolyfills.js[39m[37m         [2m | [22mpolyfills    [2m | [22m[96m333.18 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[92mstyles.css, styles.js[39m[37m[2m | [22mstyles       [2m | [22m[96m230.93 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[92mmain.js[39m[37m              [2m | [22mmain         [2m | [22m [96m10.32 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[92mruntime.js[39m[37m           [2m | [22mruntime      [2m | [22m  [96m6.53 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m[1m [22m                    [2m | [22m[1mInitial Total[22m[2m | [22m  [1m2.92 MB[22m[0m[39m
+[37m[0m[0m[39m
+[37m[0mBuild at: [1m[37m2023-11-01T08:54:36.814Z[39m[37m[22m - Hash: [1m[37mbd5bb65e3da57029[39m[37m[22m - Time: [1m[37m2950[39m[37m[22mms[0m[39m
+[1m[31m[39m[22m
+[1m[31m[0m[36m./modules/shell/ui/layout/src/index.ts[39m[31m[0m:[0m[93m2:0-38[39m[31m[0m - [0m[91mError: [39m[31m[0mModule not found: Error: Can't resolve './../layout.component' in '/Users/hunine/Workspace/side-project/smartfood-web-fe/modules/shell/ui/layout/src'[39m[22m
+[1m[31m[39m[22m
+[1m[31m[0m[91mError: [39m[31m[0m[96mmodules/shell/ui/layout/src/index.ts[0m:[93m3[0m:[93m15[0m - [91merror[0m[90m TS2307: [0mCannot find module './../layout.component' or its corresponding type declarations.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[7m3[0m export * from './../layout.component';[39m[22m
+[1m[31m[7m [0m [91m              ~~~~~~~~~~~~~~~~~~~~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[0m[91mError: [39m[31m[0m[96msrc/app/app.component.html[0m:[93m1[0m:[93m1[0m - [91merror[0m[90m NG8001: [0m'router-outlet' is not a known element:[39m[22m
+[1m[31m1. If 'router-outlet' is an Angular component, then verify that it is part of this module.[39m[22m
+[1m[31m2. If 'router-outlet' is a Web Component then add 'CUSTOM_ELEMENTS_SCHEMA' to the '@NgModule.schemas' of this component to suppress this message.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[7m1[0m <router-outlet></router-outlet>[39m[22m
+[1m[31m[7m [0m [91m~~~~~~~~~~~~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m  [96msrc/app/app.component.ts[0m:[93m5[0m:[93m16[0m[39m[22m
+[1m[31m    [7m5[0m   templateUrl: './app.component.html',[39m[22m
+[1m[31m    [7m [0m [96m               ~~~~~~~~~~~~~~~~~~~~~~[0m[39m[22m
+[1m[31m    Error occurs in the template of component AppComponent.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[37m[39m
+[37m** Angular Live Development Server is listening on localhost:4200, open your browser on http://localhost:4200/ **[39m
+[37m[39m
+[37m[39m
+[37m[91m✖[39m[37m Failed to compile.[39m
+[36m⠋[39m Generating browser application bundles...[2K[1G[36m⠙[39m Generating browser application bundles (phase: building)...[2K[1G[32m✔[39m Browser application bundle generation complete.
+[37m[39m
+[37m[0m[1mInitial Chunk Files[22m[2m | [22m[1mNames[22m  [2m | [22m[1mRaw Size[22m[0m[39m
+[37m[0m[92mmain.js[39m[37m            [2m | [22mmain   [2m | [22m[96m10.32 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[92mruntime.js[39m[37m         [2m | [22mruntime[2m | [22m [96m6.53 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m3 unchanged chunks[0m[39m
+[37m[0m[0m[39m
+[37m[0mBuild at: [1m[37m2023-11-01T08:54:44.672Z[39m[37m[22m - Hash: [1m[37mcfc4f63def6158b0[39m[37m[22m - Time: [1m[37m160[39m[37m[22mms[0m[39m
+[1m[31m[39m[22m
+[1m[31m[0m[36m./modules/shell/ui/layout/src/index.ts[39m[31m[0m:[0m[93m2:0-38[39m[31m[0m - [0m[91mError: [39m[31m[0mModule not found: Error: Can't resolve './../layout.component' in '/Users/hunine/Workspace/side-project/smartfood-web-fe/modules/shell/ui/layout/src'[39m[22m
+[1m[31m[39m[22m
+[1m[31m[0m[91mError: [39m[31m[0m[96mmodules/shell/ui/layout/src/index.ts[0m:[93m3[0m:[93m15[0m - [91merror[0m[90m TS2307: [0mCannot find module './../layout.component' or its corresponding type declarations.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[7m3[0m export * from './../layout.component';[39m[22m
+[1m[31m[7m [0m [91m              ~~~~~~~~~~~~~~~~~~~~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[0m[91mError: [39m[31m[0m[96msrc/app/app.component.html[0m:[93m1[0m:[93m1[0m - [91merror[0m[90m NG8001: [0m'router-outlet' is not a known element:[39m[22m
+[1m[31m1. If 'router-outlet' is an Angular component, then verify that it is part of this module.[39m[22m
+[1m[31m2. If 'router-outlet' is a Web Component then add 'CUSTOM_ELEMENTS_SCHEMA' to the '@NgModule.schemas' of this component to suppress this message.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[7m1[0m <router-outlet></router-outlet>[39m[22m
+[1m[31m[7m [0m [91m~~~~~~~~~~~~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m  [96msrc/app/app.component.ts[0m:[93m5[0m:[93m16[0m[39m[22m
+[1m[31m    [7m5[0m   templateUrl: './app.component.html',[39m[22m
+[1m[31m    [7m [0m [96m               ~~~~~~~~~~~~~~~~~~~~~~[0m[39m[22m
+[1m[31m    Error occurs in the template of component AppComponent.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[37m[39m
+[37m[91m✖[39m[37m Failed to compile.[39m
+[36m⠋[39m Generating browser application bundles...[2K[1G[36m⠙[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠹[39m Generating browser application bundles (phase: building)...[2K[1G[32m✔[39m Browser application bundle generation complete.
+[37m[39m
+[37m[0m[1mInitial Chunk Files[22m[2m | [22m[1mNames[22m  [2m | [22m[1mRaw Size[22m[0m[39m
+[37m[0m[92mmain.js[39m[37m            [2m | [22mmain   [2m | [22m [96m9.94 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[92mruntime.js[39m[37m         [2m | [22mruntime[2m | [22m [96m6.53 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m3 unchanged chunks[0m[39m
+[37m[0m[0m[39m
+[37m[0mBuild at: [1m[37m2023-11-01T08:56:54.734Z[39m[37m[22m - Hash: [1m[37m10c93ef7e73af3c8[39m[37m[22m - Time: [1m[37m386[39m[37m[22mms[0m[39m
+[1m[31m[39m[22m
+[1m[31m[0m[36m./modules/shell/ui/layout/src/index.ts[39m[31m[0m:[0m[93m2:0-38[39m[31m[0m - [0m[91mError: [39m[31m[0mModule not found: Error: Can't resolve './../layout.component' in '/Users/hunine/Workspace/side-project/smartfood-web-fe/modules/shell/ui/layout/src'[39m[22m
+[1m[31m[39m[22m
+[1m[31m[0m[91mError: [39m[31m[0m[96mmodules/shell/ui/layout/src/index.ts[0m:[93m3[0m:[93m15[0m - [91merror[0m[90m TS2307: [0mCannot find module './../layout.component' or its corresponding type declarations.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[7m3[0m export * from './../layout.component';[39m[22m
+[1m[31m[7m [0m [91m              ~~~~~~~~~~~~~~~~~~~~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[0m[91mError: [39m[31m[0m[96msrc/app/app.component.html[0m:[93m1[0m:[93m1[0m - [91merror[0m[90m NG8001: [0m'router-outlet' is not a known element:[39m[22m
+[1m[31m1. If 'router-outlet' is an Angular component, then verify that it is part of this module.[39m[22m
+[1m[31m2. If 'router-outlet' is a Web Component then add 'CUSTOM_ELEMENTS_SCHEMA' to the '@NgModule.schemas' of this component to suppress this message.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[7m1[0m <router-outlet></router-outlet>[39m[22m
+[1m[31m[7m [0m [91m~~~~~~~~~~~~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m  [96msrc/app/app.component.ts[0m:[93m5[0m:[93m16[0m[39m[22m
+[1m[31m    [7m5[0m   templateUrl: './app.component.html',[39m[22m
+[1m[31m    [7m [0m [96m               ~~~~~~~~~~~~~~~~~~~~~~[0m[39m[22m
+[1m[31m    Error occurs in the template of component AppComponent.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[0m[91mError: [39m[31m[0m[96msrc/app/app.module.ts[0m:[93m9[0m:[93m12[0m - [91merror[0m[90m NG1010: [0mValue[39m[22m
+[1m[31m[39m[22m
+[1m[31m[0m[91mError: [39m[31m[0m[96msrc/app/app.module.ts[0m:[93m9[0m:[93m28[0m - [91merror[0m[90m TS2304: [0mCannot find name 'Re'.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[7m9[0m   imports: [BrowserModule, Re ,WebShellModule],[39m[22m
+[1m[31m[7m [0m [91m                           ~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[37m[39m
+[37m[91m✖[39m[37m Failed to compile.[39m
+[36m⠋[39m Generating browser application bundles...[2K[1G[36m⠙[39m Generating browser application bundles (phase: building)...[2K[1G[32m✔[39m Browser application bundle generation complete.
+[37m[39m
+[37m[0m[1mInitial Chunk Files[22m[2m | [22m[1mNames[22m  [2m | [22m[1mRaw Size[22m[0m[39m
+[37m[0m[92mmain.js[39m[37m            [2m | [22mmain   [2m | [22m[96m10.75 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[92mruntime.js[39m[37m         [2m | [22mruntime[2m | [22m [96m6.53 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m3 unchanged chunks[0m[39m
+[37m[0m[0m[39m
+[37m[0mBuild at: [1m[37m2023-11-01T08:56:58.195Z[39m[37m[22m - Hash: [1m[37m5ba61dd9d692a4c7[39m[37m[22m - Time: [1m[37m133[39m[37m[22mms[0m[39m
+[1m[31m[39m[22m
+[1m[31m[0m[36m./modules/shell/ui/layout/src/index.ts[39m[31m[0m:[0m[93m2:0-38[39m[31m[0m - [0m[91mError: [39m[31m[0mModule not found: Error: Can't resolve './../layout.component' in '/Users/hunine/Workspace/side-project/smartfood-web-fe/modules/shell/ui/layout/src'[39m[22m
+[1m[31m[39m[22m
+[1m[31m[0m[91mError: [39m[31m[0m[96mmodules/shell/ui/layout/src/index.ts[0m:[93m3[0m:[93m15[0m - [91merror[0m[90m TS2307: [0mCannot find module './../layout.component' or its corresponding type declarations.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[7m3[0m export * from './../layout.component';[39m[22m
+[1m[31m[7m [0m [91m              ~~~~~~~~~~~~~~~~~~~~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[37m[39m
+[37m[91m✖[39m[37m Failed to compile.[39m
+[36m⠋[39m Generating browser application bundles...[2K[1G[36m⠙[39m Generating browser application bundles (phase: emitting)...[2K[1G[32m✔[39m Browser application bundle generation complete.
+[37m[39m
+[37m[0m[1mInitial Chunk Files[22m[2m | [22m[1mNames[22m  [2m | [22m[1mRaw Size[22m[0m[39m
+[37m[0m[92mmain.js[39m[37m            [2m | [22mmain   [2m | [22m[96m10.75 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[92mruntime.js[39m[37m         [2m | [22mruntime[2m | [22m [96m6.53 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m3 unchanged chunks[0m[39m
+[37m[0m[0m[39m
+[37m[0mBuild at: [1m[37m2023-11-01T08:57:06.975Z[39m[37m[22m - Hash: [1m[37m6b7297e55535d37c[39m[37m[22m - Time: [1m[37m127[39m[37m[22mms[0m[39m
+[37m[39m
+[37m[92m✔[39m[37m Compiled successfully.[39m
+[36m⠋[39m Generating browser application bundles...[2K[1G[36m⠙[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠹[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠸[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠼[39m Generating browser application bundles (phase: emitting)...[2K[1G[32m✔[39m Browser application bundle generation complete.
+[37m[39m
+[37m[0m[1mInitial Chunk Files[22m[2m | [22m[1mNames[22m  [2m | [22m[1mRaw Size[22m[0m[39m
+[37m[0m[92mmain.js[39m[37m            [2m | [22mmain   [2m | [22m[96m10.77 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[92mruntime.js[39m[37m         [2m | [22mruntime[2m | [22m [96m6.53 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m3 unchanged chunks[0m[39m
+[37m[0m[0m[39m
+[37m[0mBuild at: [1m[37m2023-11-01T08:59:56.941Z[39m[37m[22m - Hash: [1m[37m232646fee5af775f[39m[37m[22m - Time: [1m[37m423[39m[37m[22mms[0m[39m
+[37m[39m
+[37m[92m✔[39m[37m Compiled successfully.[39m
+[36m⠋[39m Generating browser application bundles...[2K[1G[36m⠙[39m Generating browser application bundles (phase: sealing)...[2K[1G[32m✔[39m Browser application bundle generation complete.
+[37m[39m
+[37m[0m5 unchanged chunks[0m[39m
+[37m[0m[0m[39m
+[37m[0mBuild at: [1m[37m2023-11-01T09:00:46.699Z[39m[37m[22m - Hash: [1m[37m232646fee5af775f[39m[37m[22m - Time: [1m[37m131[39m[37m[22mms[0m[39m
+[37m[39m
+[37m[92m✔[39m[37m Compiled successfully.[39m
+[36m⠋[39m Generating browser application bundles...[2K[1G[36m⠙[39m Generating browser application bundles (phase: emitting)...[2K[1G[32m✔[39m Browser application bundle generation complete.
+[37m[39m
+[37m[0m[1mInitial Chunk Files[22m[2m | [22m[1mNames[22m  [2m | [22m[1mRaw Size[22m[0m[39m
+[37m[0m[92mmain.js[39m[37m            [2m | [22mmain   [2m | [22m[96m10.46 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[92mruntime.js[39m[37m         [2m | [22mruntime[2m | [22m [96m6.53 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m3 unchanged chunks[0m[39m
+[37m[0m[0m[39m
+[37m[0mBuild at: [1m[37m2023-11-01T09:00:49.608Z[39m[37m[22m - Hash: [1m[37m653a9db1dc37da76[39m[37m[22m - Time: [1m[37m120[39m[37m[22mms[0m[39m
+[37m[39m
+[37m[92m✔[39m[37m Compiled successfully.[39m
+[36m⠋[39m Generating browser application bundles...[2K[1G[36m⠙[39m Generating browser application bundles (phase: sealing)...[2K[1G[32m✔[39m Browser application bundle generation complete.
+[37m[39m
+[37m[0m[1mInitial Chunk Files[22m[2m | [22m[1mNames[22m  [2m | [22m[1mRaw Size[22m[0m[39m
+[37m[0m[92mmain.js[39m[37m            [2m | [22mmain   [2m | [22m[96m16.88 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[92mruntime.js[39m[37m         [2m | [22mruntime[2m | [22m [96m6.53 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m3 unchanged chunks[0m[39m
+[37m[0m[0m[39m
+[37m[0mBuild at: [1m[37m2023-11-01T09:00:53.811Z[39m[37m[22m - Hash: [1m[37m6b4d511177ba7b80[39m[37m[22m - Time: [1m[37m117[39m[37m[22mms[0m[39m
+[1m[31m[39m[22m
+[1m[31m[0m[36m./src/app/app.component.ts[39m[31m[0m - [0m[91mError: [39m[31m[0mModule build failed (from ./node_modules/@angular-devkit/build-angular/src/tools/babel/webpack-loader.js):[39m[22m
+[1m[31mSyntaxError: /Users/hunine/Workspace/side-project/smartfood-web-fe/src/app/app.component.ts: Unterminated regular expression. (11:32)[39m[22m
+[1m[31m[39m[22m
+[1m[31m[0m [90m  9 |[39m[31m     [33mComponent[39m[31m({[0m[39m[22m
+[1m[31m[0m [90m 10 |[39m[31m         selector[33m:[39m[31m [32m'app-root'[39m[31m[33m,[39m[31m[0m[39m[22m
+[1m[31m[0m[31m[1m>[22m[1m[39m[31m[90m 11 |[39m[31m         templateUrl[33m:[39m[31m [33m-[39m[31moutlet [33m>[39m[31m [33m/[39m[31mrouter[33m-[39m[31moutlet[33m>[39m[31m[33m,[39m[31m[0m[39m[22m
+[1m[31m[0m [90m    |[39m[31m                                 [31m[1m^[22m[1m[39m[31m[0m[39m[22m
+[1m[31m[0m [90m 12 |[39m[31m         styleUrls[33m:[39m[31m [[32m'./app.component.scss'[39m[31m][0m[39m[22m
+[1m[31m[0m [90m 13 |[39m[31m     })[0m[39m[22m
+[1m[31m[0m [90m 14 |[39m[31m ][33m,[39m[31m [33mAppComponent[39m[31m)[33m;[39m[31m[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[0m[91mError: [39m[31m[0m[96msrc/app/app.component.ts[0m:[93m5[0m:[93m3[0m - [91merror[0m[90m TS2322: [0mType 'boolean' is not assignable to type 'string'.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[7m5[0m   templateUrl: <router-outlet></router-outlet>[39m[22m
+[1m[31m[7m [0m [91m  ~~~~~~~~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m  [96mnode_modules/@angular/core/index.d.ts[0m:[93m1157[0m:[93m5[0m[39m[22m
+[1m[31m    [7m1157[0m     templateUrl?: string;[39m[22m
+[1m[31m    [7m    [0m [96m    ~~~~~~~~~~~[0m[39m[22m
+[1m[31m    The expected type comes from property 'templateUrl' which is declared here on type 'Component'[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[0m[91mError: [39m[31m[0m[96msrc/app/app.component.ts[0m:[93m5[0m:[93m16[0m - [91merror[0m[90m NG1010: [0mtemplateUrl must be a string[39m[22m
+[1m[31m  Value could not be determined statically.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[7m5[0m   templateUrl: <router-outlet></router-outlet>[39m[22m
+[1m[31m[7m [0m [91m               ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m  [96msrc/app/app.component.ts[0m:[93m5[0m:[93m16[0m[39m[22m
+[1m[31m    [7m5[0m   templateUrl: <router-outlet></router-outlet>[39m[22m
+[1m[31m    [7m [0m [96m               ~~~~~~~~~~~~~~[0m[39m[22m
+[1m[31m    This syntax is not supported.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[0m[91mError: [39m[31m[0m[96msrc/app/app.component.ts[0m:[93m5[0m:[9[39m[22m[1m[31m3m17[0m - [91merror[0m[90m TS2304: [0mCannot find name 'router'.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[7m5[0m   templateUrl: <router-outlet></router-outlet>[39m[22m
+[1m[31m[7m [0m [91m                ~~~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[0m[91mError: [39m[31m[0m[96msrc/app/app.component.ts[0m:[93m5[0m:[93m23[0m - [91merror[0m[90m TS1005: [0m'>' expected.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[7m5[0m   templateUrl: <router-outlet></router-outlet>[39m[22m
+[1m[31m[7m [0m [91m                      ~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[0m[91mError: [39m[31m[0m[96msrc/app/app.component.ts[0m:[93m5[0m:[93m24[0m - [91merror[0m[90m TS2304: [0mCannot find name 'outlet'.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[7m5[0m   templateUrl: <router-outlet></router-outlet>[39m[22m
+[1m[31m[7m [0m [91m                       ~~~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[0m[91mError: [39m[31m[0m[96msrc/app/app.component.ts[0m:[93m5[0m:[93m32[0m - [91merror[0m[90m TS1110: [0mType expected.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[7m5[0m   templateUrl: <router-outlet></router-outlet>[39m[22m
+[1m[31m[7m [0m [91m                               ~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[0m[91mError: [39m[31m[0m[96msrc/app/app.component.ts[0m:[93m5[0m:[93m33[0m - [91merror[0m[90m TS1161: [0mUnterminated regular expression literal.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[7m5[0m   templateUrl: <router-outlet></router-outlet>[39m[22m
+[1m[31m[7m [0m [91m                                [0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[0m[91mError: [39m[31m[0m[96msrc/app/app.module.ts[0m:[93m9[0m:[93m18[0m - [91merror[0m[90m NG6001: [0mThe class 'AppComponent' is listed in the declarations of the NgModule 'AppModule', but is not a directive, a component, or a pipe. Either remove it from the NgModule's declarations, or add an appropriate Angular decorator.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[7m9[0m   declarations: [AppComponent],[39m[22m
+[1m[31m[7m [0m [91m                 ~~~~~~~~~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m  [96msrc/app/app.component.ts[0m:[93m9[0m:[93m14[0m[39m[22m
+[1m[31m    [7m9[0m export class AppComponent {[39m[22m
+[1m[31m    [7m [0m [96m             ~~~~~~~~~~~~[0m[39m[22m
+[1m[31m    'AppComponent' is declared here.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[37m[39m
+[37m[91m✖[39m[37m Failed to compile.[39m
+[36m⠋[39m Generating browser application bundles...[2K[1G[32m✔[39m Browser application bundle generation complete.
+[37m[39m
+[37m[0m[1mInitial Chunk Files[22m[2m | [22m[1mNames[22m  [2m | [22m[1mRaw Size[22m[0m[39m
+[37m[0m[92mmain.js[39m[37m            [2m | [22mmain   [2m | [22m[96m16.88 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[92mruntime.js[39m[37m         [2m | [22mruntime[2m | [22m [96m6.53 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m3 unchanged chunks[0m[39m
+[37m[0m[0m[39m
+[37m[0mBuild at: [1m[37m2023-11-01T09:00:54.646Z[39m[37m[22m - Hash: [1m[37m3b2efb02ac42f563[39m[37m[22m - Time: [1m[37m91[39m[37m[22mms[0m[39m
+[1m[31m[39m[22m
+[1m[31m[0m[36m./src/app/app.component.ts[39m[31m[0m - [0m[91mError: [39m[31m[0mModule build failed (from ./node_modules/@angular-devkit/build-angular/src/tools/babel/webpack-loader.js):[39m[22m
+[1m[31mSyntaxError: /Users/hunine/Workspace/side-project/smartfood-web-fe/src/app/app.component.ts: Unterminated regular expression. (11:32)[39m[22m
+[1m[31m[39m[22m
+[1m[31m[0m [90m  9 |[39m[31m     [33mComponent[39m[31m({[0m[39m[22m
+[1m[31m[0m [90m 10 |[39m[31m         selector[33m:[39m[31m [32m'app-root'[39m[31m[33m,[39m[31m[0m[39m[22m
+[1m[31m[0m[31m[1m>[22m[1m[39m[31m[90m 11 |[39m[31m         templateUrl[33m:[39m[31m [33m-[39m[31moutlet [33m>[39m[31m [33m/[39m[31mrouter[33m-[39m[31moutlet[33m>[39m[31m  [33m,[39m[31m[33m,[39m[31m[0m[39m[22m
+[1m[31m[0m [90m    |[39m[31m                                 [31m[1m^[22m[1m[39m[31m[0m[39m[22m
+[1m[31m[0m [90m 12 |[39m[31m         styleUrls[33m:[39m[31m [[32m'./app.component.scss'[39m[31m][0m[39m[22m
+[1m[31m[0m [90m 13 |[39m[31m     })[0m[39m[22m
+[1m[31m[0m [90m 14 |[39m[31m ][33m,[39m[31m [33mAppComponent[39m[31m)[33m;[39m[31m[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[0m[91mError: [39m[31m[0m[96msrc/app/app.component.ts[0m:[93m5[0m:[93m3[0m - [91merror[0m[90m TS2322: [0mType 'boolean' is not assignable to type 'string'.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[7m5[0m   templateUrl: <router-outlet></router-outlet>  ,[39m[22m
+[1m[31m[7m [0m [91m  ~~~~~~~~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m  [96mnode_modules/@angular/core/index.d.ts[0m:[93m1157[0m:[93m5[0m[39m[22m
+[1m[31m    [7m1157[0m     templateUrl?: string;[39m[22m
+[1m[31m    [7m    [0m [96m    ~~~~~~~~~~~[0m[39m[22m
+[1m[31m    The expected type comes from property 'templateUrl' which is declared here on type 'Component'[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[0m[91mError: [39m[31m[0m[96msrc/app/app.component.ts[0m:[93m5[0m:[93m16[0m - [91merror[0m[90m NG1010: [0mtemplateUrl must be a string[39m[22m
+[1m[31m  Value could not be determined statically.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[7m5[0m   templateUrl: <router-outlet></router-outlet>  ,[39m[22m
+[1m[31m[7m [0m [91m               ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m  [96msrc/app/app.component.ts[0m:[93m5[0m:[93m16[0m[39m[22m
+[1m[31m    [7m5[0m   templateUrl: <router-outlet></router-outlet>  ,[39m[22m
+[1m[31m    [7m [0m [96m               ~~~~~~~~~~~~~~[0m[39m[22m
+[1m[31m    This syntax is not supported.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[0m[91mError: [39m[31m[0m[96msrc/app/app.compon[39m[22m[1m[31ment.ts[0m:[93m5[0m:[93m17[0m - [91merror[0m[90m TS2304: [0mCannot find name 'router'.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[7m5[0m   templateUrl: <router-outlet></router-outlet>  ,[39m[22m
+[1m[31m[7m [0m [91m                ~~~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[0m[91mError: [39m[31m[0m[96msrc/app/app.component.ts[0m:[93m5[0m:[93m23[0m - [91merror[0m[90m TS1005: [0m'>' expected.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[7m5[0m   templateUrl: <router-outlet></router-outlet>  ,[39m[22m
+[1m[31m[7m [0m [91m                      ~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[0m[91mError: [39m[31m[0m[96msrc/app/app.component.ts[0m:[93m5[0m:[93m24[0m - [91merror[0m[90m TS2304: [0mCannot find name 'outlet'.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[7m5[0m   templateUrl: <router-outlet></router-outlet>  ,[39m[22m
+[1m[31m[7m [0m [91m                       ~~~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[0m[91mError: [39m[31m[0m[96msrc/app/app.component.ts[0m:[93m5[0m:[93m32[0m - [91merror[0m[90m TS1110: [0mType expected.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[7m5[0m   templateUrl: <router-outlet></router-outlet>  ,[39m[22m
+[1m[31m[7m [0m [91m                               ~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[0m[91mError: [39m[31m[0m[96msrc/app/app.component.ts[0m:[93m5[0m:[93m33[0m - [91merror[0m[90m TS1161: [0mUnterminated regular expression literal.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[7m5[0m   templateUrl: <router-outlet></router-outlet>  ,[39m[22m
+[1m[31m[7m [0m [91m                                [0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[0m[91mError: [39m[31m[0m[96msrc/app/app.component.ts[0m:[93m6[0m:[93m3[0m - [91merror[0m[90m TS1005: [0m',' expected.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[7m6[0m   styleUrls: ['./app.component.scss'][39m[22m
+[1m[31m[7m [0m [91m  ~~~~~~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[0m[91mError: [39m[31m[0m[96msrc/app/app.module.ts[0m:[93m9[0m:[93m18[0m - [91merror[0m[90m NG6001: [0mThe class 'AppComponent' is listed in the declarations of the NgModule 'AppModule', but is not a directive, a component, or a pipe. Either remove it from the NgModule's declarations, or add an appropriate Angular decorator.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[7m9[0m   declarations: [AppComponent],[39m[22m
+[1m[31m[7m [0m [91m                 ~~~~~~~~~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m  [96msrc/app/app.component.ts[0m:[93m8[0m:[93m14[0m[39m[22m
+[1m[31m    [7m8[0m export class AppComponent {[39m[22m
+[1m[31m    [7m [0m [96m             ~~~~~~~~~~~~[0m[39m[22m
+[1m[31m[39m[22m[1m[31m    'AppComponent' is declared here.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[37m[39m
+[37m[91m✖[39m[37m Failed to compile.[39m
+[36m⠋[39m Generating browser application bundles...[2K[1G[36m⠙[39m Generating browser application bundles (phase: building)...[2K[1G[32m✔[39m Browser application bundle generation complete.
+[37m[39m
+[37m[0m[1mInitial Chunk Files[22m[2m | [22m[1mNames[22m  [2m | [22m[1mRaw Size[22m[0m[39m
+[37m[0m[92mmain.js[39m[37m            [2m | [22mmain   [2m | [22m[96m10.30 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[92mruntime.js[39m[37m         [2m | [22mruntime[2m | [22m [96m6.53 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m3 unchanged chunks[0m[39m
+[37m[0m[0m[39m
+[37m[0mBuild at: [1m[37m2023-11-01T09:01:02.394Z[39m[37m[22m - Hash: [1m[37m62128c63be38c0da[39m[37m[22m - Time: [1m[37m140[39m[37m[22mms[0m[39m
+[1m[31m[39m[22m
+[1m[31m[0m[91mError: [39m[31m[0mModule not found: Error: Can't resolve '/Users/hunine/Workspace/side-project/smartfood-web-fe/src/app/<router-outlet></router-outlet>?ngResource' in '/Users/hunine/Workspace/side-project/smartfood-web-fe'[39m[22m
+[1m[31m[39m[22m
+[1m[31m[0m[91mError: [39m[31m[0m[96msrc/app/<router-outlet></router-outlet>[0m:[93m6[0m:[93m2[0m - [91merror[0m[90m NG5002: [0mInvalid ICU message. Missing '}'.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[7m6[0m ;[39m[22m
+[1m[31m[7m [0m [91m [0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m  [96msrc/app/app.component.ts[0m:[93m5[0m:[93m16[0m[39m[22m
+[1m[31m    [7m5[0m   templateUrl: '<router-outlet></router-outlet>'  ,[39m[22m
+[1m[31m    [7m [0m [96m               ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m[39m[22m
+[1m[31m    Error occurs in the template of component AppComponent.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[0m[91mError: [39m[31m[0m[96msrc/app/<router-outlet></router-outlet>[0m:[93m6[0m:[93m2[0m - [91merror[0m[90m NG5002: [0mUnexpected character "EOF" (Do you have an unescaped "{" in your template? Use "{{ '{' }}") to escape it.)[39m[22m
+[1m[31m[39m[22m
+[1m[31m[7m6[0m ;[39m[22m
+[1m[31m[7m [0m [91m [0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m  [96msrc/app/app.component.ts[0m:[93m5[0m:[93m16[0m[39m[22m
+[1m[31m    [7m5[0m   templateUrl: '<router-outlet></router-outlet>'  ,[39m[22m
+[1m[31m    [7m [0m [96m               ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m[39m[22m
+[1m[31m    Error occurs in the template of component AppComponent.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[0m[91mError: [39m[31m[0mThe loader "/Users/hunine/Workspace/side-project/smartfood-web-fe/src/app/<router-outlet></router-outlet>" didn't return a string.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[37m[39m
+[37m[91m✖[39m[37m Failed to compile.[39m
+[36m⠋[39m Generating browser application bundles...[2K[1G[32m✔[39m Browser application bundle generation complete.
+[37m[39m
+[37m[0m[1mInitial Chunk Files[22m[2m | [22m[1mNames[22m  [2m | [22m[1mRaw Size[22m[0m[39m
+[37m[0m[92mmain.js[39m[37m            [2m | [22mmain   [2m | [22m[96m16.91 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[92mruntime.js[39m[37m         [2m | [22mruntime[2m | [22m [96m6.53 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m3 unchanged chunks[0m[39m
+[37m[0m[0m[39m
+[37m[0mBuild at: [1m[37m2023-11-01T09:01:03.282Z[39m[37m[22m - Hash: [1m[37m3b2efb02ac42f563[39m[37m[22m - Time: [1m[37m92[39m[37m[22mms[0m[39m
+[1m[31m[39m[22m
+[1m[31m[0m[36m./src/app/app.component.ts[39m[31m[0m - [0m[91mError: [39m[31m[0mModule build failed (from ./node_modules/@angular-devkit/build-angular/src/tools/babel/webpack-loader.js):[39m[22m
+[1m[31mSyntaxError: /Users/hunine/Workspace/side-project/smartfood-web-fe/src/app/app.component.ts: Unterminated regular expression. (11:32)[39m[22m
+[1m[31m[39m[22m
+[1m[31m[0m [90m  9 |[39m[31m     [33mComponent[39m[31m({[0m[39m[22m
+[1m[31m[0m [90m 10 |[39m[31m         selector[33m:[39m[31m [32m'app-root'[39m[31m[33m,[39m[31m[0m[39m[22m
+[1m[31m[0m[31m[1m>[22m[1m[39m[31m[90m 11 |[39m[31m         templateUrl[33m:[39m[31m [33m-[39m[31moutlet [33m>[39m[31m [33m/[39m[31mrouter[33m-[39m[31moutlet[33m>[39m[31m  [33m,[39m[31m[33m,[39m[31m[0m[39m[22m
+[1m[31m[0m [90m    |[39m[31m                                 [31m[1m^[22m[1m[39m[31m[0m[39m[22m
+[1m[31m[0m [90m 12 |[39m[31m         styleUrls[33m:[39m[31m [[32m'./app.component.scss'[39m[31m][0m[39m[22m
+[1m[31m[0m [90m 13 |[39m[31m     })[0m[39m[22m
+[1m[31m[0m [90m 14 |[39m[31m ][33m,[39m[31m [33mAppComponent[39m[31m)[33m;[39m[31m[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[0m[91mError: [39m[31m[0m[96msrc/app/app.component.ts[0m:[93m5[0m:[93m3[0m - [91merror[0m[90m TS2322: [0mType 'boolean' is not assignable to type 'string'.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[7m5[0m   templateUrl: <router-outlet></router-outlet>  ,[39m[22m
+[1m[31m[7m [0m [91m  ~~~~~~~~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m  [96mnode_modules/@angular/core/index.d.ts[0m:[93m1157[0m:[93m5[0m[39m[22m
+[1m[31m    [7m1157[0m     templateUrl?: string;[39m[22m
+[1m[31m    [7m    [0m [96m    ~~~~~~~~~~~[0m[39m[22m
+[1m[31m    The expected type comes from property 'templateUrl' which is declared here on type 'Component'[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[0m[91mError: [39m[31m[0m[96msrc/app/app.component.ts[0m:[93m5[0m:[93m16[0m - [91merror[0m[90m NG1010: [0mtemplateUrl must be a string[39m[22m
+[1m[31m  Value could not be determined statically.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[7m5[0m   templateUrl: <router-outlet></router-outlet>  ,[39m[22m
+[1m[31m[7m [0m [91m               ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m  [96msrc/app/app.component.ts[0m:[93m5[0m:[93m16[0m[39m[22m
+[1m[31m    [7m5[0m   templateUrl: <router-outlet></router-outlet>  ,[39m[22m
+[1m[31m    [7m [0m [96m               ~~~~~~~~~~~~~~[0m[39m[22m
+[1m[31m    This syntax is not supported.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[0m[91mError: [39m[31m[0m[96msrc/app/app.compon[39m[22m[1m[31ment.ts[0m:[93m5[0m:[93m17[0m - [91merror[0m[90m TS2304: [0mCannot find name 'router'.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[7m5[0m   templateUrl: <router-outlet></router-outlet>  ,[39m[22m
+[1m[31m[7m [0m [91m                ~~~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[0m[91mError: [39m[31m[0m[96msrc/app/app.component.ts[0m:[93m5[0m:[93m23[0m - [91merror[0m[90m TS1005: [0m'>' expected.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[7m5[0m   templateUrl: <router-outlet></router-outlet>  ,[39m[22m
+[1m[31m[7m [0m [91m                      ~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[0m[91mError: [39m[31m[0m[96msrc/app/app.component.ts[0m:[93m5[0m:[93m24[0m - [91merror[0m[90m TS2304: [0mCannot find name 'outlet'.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[7m5[0m   templateUrl: <router-outlet></router-outlet>  ,[39m[22m
+[1m[31m[7m [0m [91m                       ~~~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[0m[91mError: [39m[31m[0m[96msrc/app/app.component.ts[0m:[93m5[0m:[93m32[0m - [91merror[0m[90m TS1110: [0mType expected.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[7m5[0m   templateUrl: <router-outlet></router-outlet>  ,[39m[22m
+[1m[31m[7m [0m [91m                               ~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[0m[91mError: [39m[31m[0m[96msrc/app/app.component.ts[0m:[93m5[0m:[93m33[0m - [91merror[0m[90m TS1161: [0mUnterminated regular expression literal.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[7m5[0m   templateUrl: <router-outlet></router-outlet>  ,[39m[22m
+[1m[31m[7m [0m [91m                                [0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[0m[91mError: [39m[31m[0m[96msrc/app/app.component.ts[0m:[93m6[0m:[93m3[0m - [91merror[0m[90m TS1005: [0m',' expected.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[7m6[0m   styleUrls: ['./app.component.scss'][39m[22m
+[1m[31m[7m [0m [91m  ~~~~~~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[0m[91mError: [39m[31m[0m[96msrc/app/app.module.ts[0m:[93m9[0m:[93m18[0m - [91merror[0m[90m NG6001: [0mThe class 'AppComponent' is listed in the declarations of the NgModule 'AppModule', but is not a directive, a component, or a pipe. Either remove it from the NgModule's declarations, or add an appropriate Angular decorator.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[7m9[0m   declarations: [AppComponent],[39m[22m
+[1m[31m[7m [0m [91m                 ~~~~~~~~~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m  [96msrc/app/app.component.ts[0m:[93m8[0m:[93m14[0m[39m[22m
+[1m[31m    [7m8[0m export class AppComponent {[39m[22m
+[1m[31m    [7m [0m [96m             ~~~~~~~~~~~~[0m[39m[22m
+[1m[31m[39m[22m[1m[31m    'AppComponent' is declared here.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[37m[39m
+[37m[91m✖[39m[37m Failed to compile.[39m
+[36m⠋[39m Generating browser application bundles...[2K[1G[32m✔[39m Browser application bundle generation complete.
+[37m[39m
+[37m[0m[1mInitial Chunk Files[22m[2m | [22m[1mNames[22m  [2m | [22m[1mRaw Size[22m[0m[39m
+[37m[0m[92mruntime.js[39m[37m         [2m | [22mruntime[2m | [22m [96m6.53 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m4 unchanged chunks[0m[39m
+[37m[0m[0m[39m
+[37m[0mBuild at: [1m[37m2023-11-01T09:01:04.557Z[39m[37m[22m - Hash: [1m[37m2299e6075d20cb8f[39m[37m[22m - Time: [1m[37m84[39m[37m[22mms[0m[39m
+[1m[31m[39m[22m
+[1m[31m[0m[36m./src/app/app.component.ts[39m[31m[0m - [0m[91mError: [39m[31m[0mModule build failed (from ./node_modules/@angular-devkit/build-angular/src/tools/babel/webpack-loader.js):[39m[22m
+[1m[31mSyntaxError: /Users/hunine/Workspace/side-project/smartfood-web-fe/src/app/app.component.ts: Unterminated regular expression. (11:32)[39m[22m
+[1m[31m[39m[22m
+[1m[31m[0m [90m  9 |[39m[31m     [33mComponent[39m[31m({[0m[39m[22m
+[1m[31m[0m [90m 10 |[39m[31m         selector[33m:[39m[31m [32m'app-root'[39m[31m[33m,[39m[31m[0m[39m[22m
+[1m[31m[0m[31m[1m>[22m[1m[39m[31m[90m 11 |[39m[31m         templateUrl[33m:[39m[31m [33m-[39m[31moutlet [33m>[39m[31m [33m/[39m[31mrouter[33m-[39m[31moutlet[33m>[39m[31m[33m,[39m[31m[0m[39m[22m
+[1m[31m[0m [90m    |[39m[31m                                 [31m[1m^[22m[1m[39m[31m[0m[39m[22m
+[1m[31m[0m [90m 12 |[39m[31m         styleUrls[33m:[39m[31m [[32m'./app.component.scss'[39m[31m][0m[39m[22m
+[1m[31m[0m [90m 13 |[39m[31m     })[0m[39m[22m
+[1m[31m[0m [90m 14 |[39m[31m ][33m,[39m[31m [33mAppComponent[39m[31m)[33m;[39m[31m[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[0m[91mError: [39m[31m[0m[96msrc/app/app.component.ts[0m:[93m5[0m:[93m3[0m - [91merror[0m[90m TS2322: [0mType 'boolean' is not assignable to type 'string'.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[7m5[0m   templateUrl: <router-outlet></router-outlet>[39m[22m
+[1m[31m[7m [0m [91m  ~~~~~~~~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m  [96mnode_modules/@angular/core/index.d.ts[0m:[93m1157[0m:[93m5[0m[39m[22m
+[1m[31m    [7m1157[0m     templateUrl?: string;[39m[22m
+[1m[31m    [7m    [0m [96m    ~~~~~~~~~~~[0m[39m[22m
+[1m[31m    The expected type comes from property 'templateUrl' which is declared here on type 'Component'[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[0m[91mError: [39m[31m[0m[96msrc/app/app.component.ts[0m:[93m5[0m:[93m16[0m - [91merror[0m[90m NG1010: [0mtemplateUrl must be a string[39m[22m
+[1m[31m  Value could not be determined statically.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[7m5[0m   templateUrl: <router-outlet></router-outlet>[39m[22m
+[1m[31m[7m [0m [91m               ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m  [96msrc/app/app.component.ts[0m:[93m5[0m:[93m16[0m[39m[22m
+[1m[31m    [7m5[0m   templateUrl: <router-outlet></router-outlet>[39m[22m
+[1m[31m    [7m [0m [96m               ~~~~~~~~~~~~~~[0m[39m[22m
+[1m[31m    This syntax is not supported.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[0m[91mError: [39m[31m[0m[96msrc/app/app.component.ts[0m:[93m5[0m:[9[39m[22m[1m[31m3m17[0m - [91merror[0m[90m TS2304: [0mCannot find name 'router'.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[7m5[0m   templateUrl: <router-outlet></router-outlet>[39m[22m
+[1m[31m[7m [0m [91m                ~~~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[0m[91mError: [39m[31m[0m[96msrc/app/app.component.ts[0m:[93m5[0m:[93m23[0m - [91merror[0m[90m TS1005: [0m'>' expected.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[7m5[0m   templateUrl: <router-outlet></router-outlet>[39m[22m
+[1m[31m[7m [0m [91m                      ~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[0m[91mError: [39m[31m[0m[96msrc/app/app.component.ts[0m:[93m5[0m:[93m24[0m - [91merror[0m[90m TS2304: [0mCannot find name 'outlet'.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[7m5[0m   templateUrl: <router-outlet></router-outlet>[39m[22m
+[1m[31m[7m [0m [91m                       ~~~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[0m[91mError: [39m[31m[0m[96msrc/app/app.component.ts[0m:[93m5[0m:[93m32[0m - [91merror[0m[90m TS1110: [0mType expected.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[7m5[0m   templateUrl: <router-outlet></router-outlet>[39m[22m
+[1m[31m[7m [0m [91m                               ~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[0m[91mError: [39m[31m[0m[96msrc/app/app.component.ts[0m:[93m5[0m:[93m33[0m - [91merror[0m[90m TS1161: [0mUnterminated regular expression literal.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[7m5[0m   templateUrl: <router-outlet></router-outlet>[39m[22m
+[1m[31m[7m [0m [91m                                [0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[0m[91mError: [39m[31m[0m[96msrc/app/app.module.ts[0m:[93m9[0m:[93m18[0m - [91merror[0m[90m NG6001: [0mThe class 'AppComponent' is listed in the declarations of the NgModule 'AppModule', but is not a directive, a component, or a pipe. Either remove it from the NgModule's declarations, or add an appropriate Angular decorator.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[7m9[0m   declarations: [AppComponent],[39m[22m
+[1m[31m[7m [0m [91m                 ~~~~~~~~~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m  [96msrc/app/app.component.ts[0m:[93m9[0m:[93m14[0m[39m[22m
+[1m[31m    [7m9[0m export class AppComponent {[39m[22m
+[1m[31m    [7m [0m [96m             ~~~~~~~~~~~~[0m[39m[22m
+[1m[31m    'AppComponent' is declared here.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[37m[39m
+[37m[91m✖[39m[37m Failed to compile.[39m
+[36m⠋[39m Generating browser application bundles...[2K[1G[36m⠙[39m Generating browser application bundles (phase: emitting)...[2K[1G[32m✔[39m Browser application bundle generation complete.
+[37m[39m
+[37m[0m[1mInitial Chunk Files[22m[2m | [22m[1mNames[22m  [2m | [22m[1mRaw Size[22m[0m[39m
+[37m[0m[92mmain.js[39m[37m            [2m | [22mmain   [2m | [22m[96m10.46 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[92mruntime.js[39m[37m         [2m | [22mruntime[2m | [22m [96m6.53 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m3 unchanged chunks[0m[39m
+[37m[0m[0m[39m
+[37m[0mBuild at: [1m[37m2023-11-01T09:01:10.194Z[39m[37m[22m - Hash: [1m[37m8dd7d4751c14e4c5[39m[37m[22m - Time: [1m[37m102[39m[37m[22mms[0m[39m
+[37m[39m
+[37m[92m✔[39m[37m Compiled successfully.[39m
+[36m⠋[39m Generating browser application bundles...[2K[1G[36m⠙[39m Generating browser application bundles (phase: emitting)...[2K[1G[32m✔[39m Browser application bundle generation complete.
+[37m[39m
+[37m[0m5 unchanged chunks[0m[39m
+[37m[0m[0m[39m
+[37m[0mBuild at: [1m[37m2023-11-01T09:01:10.327Z[39m[37m[22m - Hash: [1m[37m8dd7d4751c14e4c5[39m[37m[22m - Time: [1m[37m106[39m[37m[22mms[0m[39m
+[37m[39m
+[37m[92m✔[39m[37m Compiled successfully.[39m
+[36m⠋[39m Generating browser application bundles...[2K[1G[36m⠙[39m Generating browser application bundles (phase: building)...[2K[1G[32m✔[39m Browser application bundle generation complete.
+[37m[39m
+[37m[0m[1mInitial Chunk Files[22m[2m | [22m[1mNames[22m  [2m | [22m[1mRaw Size[22m[0m[39m
+[37m[0m[92mmain.js[39m[37m            [2m | [22mmain   [2m | [22m[96m10.29 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[92mruntime.js[39m[37m         [2m | [22mruntime[2m | [22m [96m6.53 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m3 unchanged chunks[0m[39m
+[37m[0m[0m[39m
+[37m[0mBuild at: [1m[37m2023-11-01T09:02:34.199Z[39m[37m[22m - Hash: [1m[37mfc3b8f8041c08e51[39m[37m[22m - Time: [1m[37m162[39m[37m[22mms[0m[39m
+[1m[31m[39m[22m
+[1m[31m[0m[91mError: [39m[31m[0m[96msrc/app/app.component.ts[0m:[93m5[0m:[93m16[0m - [91merror[0m[90m NG2008: [0mCould not find template file './app.component.html'.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[7m5[0m   templateUrl: './app.component.html',[39m[22m
+[1m[31m[7m [0m [91m               ~~~~~~~~~~~~~~~~~~~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[37m[39m
+[37m[91m✖[39m[37m Failed to compile.[39m
+[36m⠋[39m Generating browser application bundles...[2K[1G[36m⠙[39m Generating browser application bundles (phase: sealing)...[2K[1G[32m✔[39m Browser application bundle generation complete.
+[37m[39m
+[37m[0m[1mInitial Chunk Files[22m[2m | [22m[1mNames[22m  [2m | [22m[1mRaw Size[22m[0m[39m
+[37m[0m[92mmain.js[39m[37m            [2m | [22mmain   [2m | [22m[96m10.27 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[92mruntime.js[39m[37m         [2m | [22mruntime[2m | [22m [96m6.53 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m3 unchanged chunks[0m[39m
+[37m[0m[0m[39m
+[37m[0mBuild at: [1m[37m2023-11-01T09:02:43.510Z[39m[37m[22m - Hash: [1m[37ma7ee5c746cc3ddf9[39m[37m[22m - Time: [1m[37m123[39m[37m[22mms[0m[39m
+[1m[31m[39m[22m
+[1m[31m[0m[91mError: [39m[31m[0mModule not found: Error: Can't resolve '/Users/hunine/Workspace/side-project/smartfood-web-fe/src/app?ngResource' in '/Users/hunine/Workspace/side-project/smartfood-web-fe'[39m[22m
+[1m[31m[39m[22m
+[1m[31m[0m[91mError: [39m[31m[0m[96msrc/app[0m:[93m6[0m:[93m2[0m - [91merror[0m[90m NG5002: [0mInvalid ICU message. Missing '}'.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[7m6[0m ;[39m[22m
+[1m[31m[7m [0m [91m [0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m  [96msrc/app/app.component.ts[0m:[93m5[0m:[93m16[0m[39m[22m
+[1m[31m    [7m5[0m   templateUrl: ``,[39m[22m
+[1m[31m    [7m [0m [96m               ~~[0m[39m[22m
+[1m[31m    Error occurs in the template of component AppComponent.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[0m[91mError: [39m[31m[0m[96msrc/app[0m:[93m6[0m:[93m2[0m - [91merror[0m[90m NG5002: [0mUnexpected character "EOF" (Do you have an unescaped "{" in your template? Use "{{ '{' }}") to escape it.)[39m[22m
+[1m[31m[39m[22m
+[1m[31m[7m6[0m ;[39m[22m
+[1m[31m[7m [0m [91m [0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m  [96msrc/app/app.component.ts[0m:[93m5[0m:[93m16[0m[39m[22m
+[1m[31m    [7m5[0m   templateUrl: ``,[39m[22m
+[1m[31m    [7m [0m [96m               ~~[0m[39m[22m
+[1m[31m    Error occurs in the template of component AppComponent.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[0m[91mError: [39m[31m[0mThe loader "/Users/hunine/Workspace/side-project/smartfood-web-fe/src/app" didn't return a string.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[37m[39m
+[37m[91m✖[39m[37m Failed to compile.[39m
+[36m⠋[39m Generating browser application bundles...[2K[1G[32m✔[39m Browser application bundle generation complete.
+[37m[39m
+[37m[0m[1mInitial Chunk Files[22m[2m | [22m[1mNames[22m  [2m | [22m[1mRaw Size[22m[0m[39m
+[37m[0m[92mmain.js[39m[37m            [2m | [22mmain   [2m | [22m[96m10.28 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[92mruntime.js[39m[37m         [2m | [22mruntime[2m | [22m [96m6.53 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m3 unchanged chunks[0m[39m
+[37m[0m[0m[39m
+[37m[0mBuild at: [1m[37m2023-11-01T09:02:46.285Z[39m[37m[22m - Hash: [1m[37m440738d7fc38397c[39m[37m[22m - Time: [1m[37m100[39m[37m[22mms[0m[39m
+[1m[31m[39m[22m
+[1m[31m[0m[91mError: [39m[31m[0mModule not found: Error: Can't resolve '/Users/hunine/Workspace/side-project/smartfood-web-fe/src/app/<>?ngResource' in '/Users/hunine/Workspace/side-project/smartfood-web-fe'[39m[22m
+[1m[31m[39m[22m
+[1m[31m[0m[91mError: [39m[31m[0m[96msrc/app/<>[0m:[93m6[0m:[93m2[0m - [91merror[0m[90m NG5002: [0mInvalid ICU message. Missing '}'.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[7m6[0m ;[39m[22m
+[1m[31m[7m [0m [91m [0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m  [96msrc/app/app.component.ts[0m:[93m5[0m:[93m16[0m[39m[22m
+[1m[31m    [7m5[0m   templateUrl: `<>`,[39m[22m
+[1m[31m    [7m [0m [96m               ~~~~[0m[39m[22m
+[1m[31m    Error occurs in the template of component AppComponent.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[0m[91mError: [39m[31m[0m[96msrc/app/<>[0m:[93m6[0m:[93m2[0m - [91merror[0m[90m NG5002: [0mUnexpected character "EOF" (Do you have an unescaped "{" in your template? Use "{{ '{' }}") to escape it.)[39m[22m
+[1m[31m[39m[22m
+[1m[31m[7m6[0m ;[39m[22m
+[1m[31m[7m [0m [91m [0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m  [96msrc/app/app.component.ts[0m:[93m5[0m:[93m16[0m[39m[22m
+[1m[31m    [7m5[0m   templateUrl: `<>`,[39m[22m
+[1m[31m    [7m [0m [96m               ~~~~[0m[39m[22m
+[1m[31m    Error occurs in the template of component AppComponent.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[0m[91mError: [39m[31m[0mThe loader "/Users/hunine/Workspace/side-project/smartfood-web-fe/src/app/<>" didn't return a string.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[37m[39m
+[37m[91m✖[39m[37m Failed to compile.[39m
+[36m⠋[39m Generating browser application bundles...[2K[1G[32m✔[39m Browser application bundle generation complete.
+[37m[39m
+[37m[0m[1mInitial Chunk Files[22m[2m | [22m[1mNames[22m  [2m | [22m[1mRaw Size[22m[0m[39m
+[37m[0m[92mmain.js[39m[37m            [2m | [22mmain   [2m | [22m[96m10.29 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[92mruntime.js[39m[37m         [2m | [22mruntime[2m | [22m [96m6.53 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m3 unchanged chunks[0m[39m
+[37m[0m[0m[39m
+[37m[0mBuild at: [1m[37m2023-11-01T09:02:49.097Z[39m[37m[22m - Hash: [1m[37m7fc12d237c912603[39m[37m[22m - Time: [1m[37m94[39m[37m[22mms[0m[39m
+[1m[31m[39m[22m
+[1m[31m[0m[91mError: [39m[31m[0mModule not found: Error: Can't resolve '/Users/hunine/Workspace/side-project/smartfood-web-fe/src/app/<router-outlet>?ngResource' in '/Users/hunine/Workspace/side-project/smartfood-web-fe'[39m[22m
+[1m[31m[39m[22m
+[1m[31m[0m[91mError: [39m[31m[0m[96msrc/app/<router-outlet>[0m:[93m6[0m:[93m2[0m - [91merror[0m[90m NG5002: [0mInvalid ICU message. Missing '}'.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[7m6[0m ;[39m[22m
+[1m[31m[7m [0m [91m [0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m  [96msrc/app/app.component.ts[0m:[93m5[0m:[93m16[0m[39m[22m
+[1m[31m    [7m5[0m   templateUrl: `<router-outlet>`,[39m[22m
+[1m[31m    [7m [0m [96m               ~~~~~~~~~~~~~~~~~[0m[39m[22m
+[1m[31m    Error occurs in the template of component AppComponent.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[0m[91mError: [39m[31m[0m[96msrc/app/<router-outlet>[0m:[93m6[0m:[93m2[0m - [91merror[0m[90m NG5002: [0mUnexpected character "EOF" (Do you have an unescaped "{" in your template? Use "{{ '{' }}") to escape it.)[39m[22m
+[1m[31m[39m[22m
+[1m[31m[7m6[0m ;[39m[22m
+[1m[31m[7m [0m [91m [0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m  [96msrc/app/app.component.ts[0m:[93m5[0m:[93m16[0m[39m[22m
+[1m[31m    [7m5[0m   templateUrl: `<router-outlet>`,[39m[22m
+[1m[31m    [7m [0m [96m               ~~~~~~~~~~~~~~~~~[0m[39m[22m
+[1m[31m    Error occurs in the template of component AppComponent.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[0m[91mError: [39m[31m[0mThe loader "/Users/hunine/Workspace/side-project/smartfood-web-fe/src/app/<router-outlet>" didn't return a string.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[37m[39m
+[37m[91m✖[39m[37m Failed to compile.[39m
+[36m⠋[39m Generating browser application bundles...[2K[1G[32m✔[39m Browser application bundle generation complete.
+[37m[39m
+[37m[0m[1mInitial Chunk Files[22m[2m | [22m[1mNames[22m  [2m | [22m[1mRaw Size[22m[0m[39m
+[37m[0m[92mmain.js[39m[37m            [2m | [22mmain   [2m | [22m[96m10.29 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[92mruntime.js[39m[37m         [2m | [22mruntime[2m | [22m [96m6.53 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m3 unchanged chunks[0m[39m
+[37m[0m[0m[39m
+[37m[0mBuild at: [1m[37m2023-11-01T09:02:49.293Z[39m[37m[22m - Hash: [1m[37ma280b332c25db9b4[39m[37m[22m - Time: [1m[37m88[39m[37m[22mms[0m[39m
+[1m[31m[39m[22m
+[1m[31m[0m[91mError: [39m[31m[0mModule not found: Error: Can't resolve '/Users/hunine/Workspace/side-project/smartfood-web-fe/src/app/<router-outlet>?ngResource' in '/Users/hunine/Workspace/side-project/smartfood-web-fe'[39m[22m
+[1m[31m[39m[22m
+[1m[31m[0m[91mError: [39m[31m[0m[96msrc/app/<router-outlet>[0m:[93m6[0m:[93m2[0m - [91merror[0m[90m NG5002: [0mInvalid ICU message. Missing '}'.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[7m6[0m ;[39m[22m
+[1m[31m[7m [0m [91m [0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m  [96msrc/app/app.component.ts[0m:[93m5[0m:[93m16[0m[39m[22m
+[1m[31m    [7m5[0m   templateUrl: `<router-outlet>`,[39m[22m
+[1m[31m    [7m [0m [96m               ~~~~~~~~~~~~~~~~~[0m[39m[22m
+[1m[31m    Error occurs in the template of component AppComponent.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[0m[91mError: [39m[31m[0m[96msrc/app/<router-outlet>[0m:[93m6[0m:[93m2[0m - [91merror[0m[90m NG5002: [0mUnexpected character "EOF" (Do you have an unescaped "{" in your template? Use "{{ '{' }}") to escape it.)[39m[22m
+[1m[31m[39m[22m
+[1m[31m[7m6[0m ;[39m[22m
+[1m[31m[7m [0m [91m [0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m  [96msrc/app/app.component.ts[0m:[93m5[0m:[93m16[0m[39m[22m
+[1m[31m    [7m5[0m   templateUrl: `<router-outlet>`,[39m[22m
+[1m[31m    [7m [0m [96m               ~~~~~~~~~~~~~~~~~[0m[39m[22m
+[1m[31m    Error occurs in the template of component AppComponent.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[0m[91mError: [39m[31m[0mThe loader "/Users/hunine/Workspace/side-project/smartfood-web-fe/src/app/<router-outlet>" didn't return a string.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[37m[39m
+[37m[91m✖[39m[37m Failed to compile.[39m
+[36m⠋[39m Generating browser application bundles...[2K[1G[32m✔[39m Browser application bundle generation complete.
+[37m[39m
+[37m[0m[1mInitial Chunk Files[22m[2m | [22m[1mNames[22m  [2m | [22m[1mRaw Size[22m[0m[39m
+[37m[0m[92mmain.js[39m[37m            [2m | [22mmain   [2m | [22m[96m10.30 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[92mruntime.js[39m[37m         [2m | [22mruntime[2m | [22m [96m6.53 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m3 unchanged chunks[0m[39m
+[37m[0m[0m[39m
+[37m[0mBuild at: [1m[37m2023-11-01T09:02:52.652Z[39m[37m[22m - Hash: [1m[37m08da7f9ea088e1fb[39m[37m[22m - Time: [1m[37m104[39m[37m[22mms[0m[39m
+[1m[31m[39m[22m
+[1m[31m[0m[91mError: [39m[31m[0mModule not found: Error: Can't resolve '/Users/hunine/Workspace/side-project/smartfood-web-fe/src/app/<router-outlet></router-outlet>?ngResource' in '/Users/hunine/Workspace/side-project/smartfood-web-fe'[39m[22m
+[1m[31m[39m[22m
+[1m[31m[0m[91mError: [39m[31m[0m[96msrc/app/<router-outlet></router-outlet>[0m:[93m6[0m:[93m2[0m - [91merror[0m[90m NG5002: [0mInvalid ICU message. Missing '}'.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[7m6[0m ;[39m[22m
+[1m[31m[7m [0m [91m [0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m  [96msrc/app/app.component.ts[0m:[93m5[0m:[93m16[0m[39m[22m
+[1m[31m    [7m5[0m   templateUrl: `<router-outlet></router-outlet>`,[39m[22m
+[1m[31m    [7m [0m [96m               ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m[39m[22m
+[1m[31m    Error occurs in the template of component AppComponent.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[0m[91mError: [39m[31m[0m[96msrc/app/<router-outlet></router-outlet>[0m:[93m6[0m:[93m2[0m - [91merror[0m[90m NG5002: [0mUnexpected character "EOF" (Do you have an unescaped "{" in your template? Use "{{ '{' }}") to escape it.)[39m[22m
+[1m[31m[39m[22m
+[1m[31m[7m6[0m ;[39m[22m
+[1m[31m[7m [0m [91m [0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m  [96msrc/app/app.component.ts[0m:[93m5[0m:[93m16[0m[39m[22m
+[1m[31m    [7m5[0m   templateUrl: `<router-outlet></router-outlet>`,[39m[22m
+[1m[31m    [7m [0m [96m               ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m[39m[22m
+[1m[31m    Error occurs in the template of component AppComponent.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[0m[91mError: [39m[31m[0mThe loader "/Users/hunine/Workspace/side-project/smartfood-web-fe/src/app/<router-outlet></router-outlet>" didn't return a string.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[37m[39m
+[37m[91m✖[39m[37m Failed to compile.[39m
+[36m⠋[39m Generating browser application bundles...[2K[1G[36m⠙[39m Generating browser application bundles (phase: emitting)...[2K[1G[32m✔[39m Browser application bundle generation complete.
+[37m[39m
+[37m[0m[1mInitial Chunk Files[22m[2m | [22m[1mNames[22m  [2m | [22m[1mRaw Size[22m[0m[39m
+[37m[0m[92mmain.js[39m[37m            [2m | [22mmain   [2m | [22m[96m10.77 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[92mruntime.js[39m[37m         [2m | [22mruntime[2m | [22m [96m6.53 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m3 unchanged chunks[0m[39m
+[37m[0m[0m[39m
+[37m[0mBuild at: [1m[37m2023-11-01T09:03:00.449Z[39m[37m[22m - Hash: [1m[37m9aa2cf678c89dd25[39m[37m[22m - Time: [1m[37m131[39m[37m[22mms[0m[39m
+[37m[39m
+[37m[92m✔[39m[37m Compiled successfully.[39m
+[36m⠋[39m Generating browser application bundles...[2K[1G[36m⠙[39m Generating browser application bundles (phase: sealing)...[2K[1G[32m✔[39m Browser application bundle generation complete.
+[37m[39m
+[37m[0m[1mInitial Chunk Files[22m[2m | [22m[1mNames[22m  [2m | [22m[1mRaw Size[22m[0m[39m
+[37m[0m[92mmain.js[39m[37m            [2m | [22mmain   [2m | [22m[96m10.34 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[92mruntime.js[39m[37m         [2m | [22mruntime[2m | [22m [96m6.53 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m3 unchanged chunks[0m[39m
+[37m[0m[0m[39m
+[37m[0mBuild at: [1m[37m2023-11-01T09:03:14.944Z[39m[37m[22m - Hash: [1m[37maca703392c00d150[39m[37m[22m - Time: [1m[37m111[39m[37m[22mms[0m[39m
+[1m[31m[39m[22m
+[1m[31m[0m[91mError: [39m[31m[0m[96msrc/app/app.component.ts[0m:[93m5[0m:[93m14[0m - [91merror[0m[90m NG8001: [0m'router-outlet' is not a known element:[39m[22m
+[1m[31m1. If 'router-outlet' is an Angular component, then verify that it is part of this module.[39m[22m
+[1m[31m2. If 'router-outlet' is a Web Component then add 'CUSTOM_ELEMENTS_SCHEMA' to the '@NgModule.schemas' of this component to suppress this message.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[7m5[0m   template: `<router-outlet></router-outlet>`,[39m[22m
+[1m[31m[7m [0m [91m             ~~~~~~~~~~~~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[37m[39m
+[37m[91m✖[39m[37m Failed to compile.[39m
+[36m⠋[39m Generating browser application bundles...[2K[1G[36m⠙[39m Generating browser application bundles (phase: sealing)...[2K[1G[32m✔[39m Browser application bundle generation complete.
+[37m[39m
+[37m[0m[1mInitial Chunk Files[22m[2m | [22m[1mNames[22m  [2m | [22m[1mRaw Size[22m[0m[39m
+[37m[0m[92mmain.js[39m[37m            [2m | [22mmain   [2m | [22m[96m10.34 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[92mruntime.js[39m[37m         [2m | [22mruntime[2m | [22m [96m6.53 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m3 unchanged chunks[0m[39m
+[37m[0m[0m[39m
+[37m[0mBuild at: [1m[37m2023-11-01T09:03:16.301Z[39m[37m[22m - Hash: [1m[37m00b207b69f54ed33[39m[37m[22m - Time: [1m[37m136[39m[37m[22mms[0m[39m
+[1m[31m[39m[22m
+[1m[31m[0m[91mError: [39m[31m[0m[96msrc/app/app.component.ts[0m:[93m5[0m:[93m14[0m - [91merror[0m[90m NG8001: [0m'router-outlet' is not a known element:[39m[22m
+[1m[31m1. If 'router-outlet' is an Angular component, then verify that it is part of this module.[39m[22m
+[1m[31m2. If 'router-outlet' is a Web Component then add 'CUSTOM_ELEMENTS_SCHEMA' to the '@NgModule.schemas' of this component to suppress this message.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[7m5[0m   template: `<router-outlet></router-outlet>`,[39m[22m
+[1m[31m[7m [0m [91m             ~~~~~~~~~~~~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[37m[39m
+[37m[91m✖[39m[37m Failed to compile.[39m
+[36m⠋[39m Generating browser application bundles...[2K[1G[32m✔[39m Browser application bundle generation complete.
+[37m[39m
+[37m[0m[1mInitial Chunk Files[22m[2m | [22m[1mNames[22m  [2m | [22m[1mRaw Size[22m[0m[39m
+[37m[0m[92mmain.js[39m[37m            [2m | [22mmain   [2m | [22m[96m10.34 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[92mruntime.js[39m[37m         [2m | [22mruntime[2m | [22m [96m6.53 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m3 unchanged chunks[0m[39m
+[37m[0m[0m[39m
+[37m[0mBuild at: [1m[37m2023-11-01T09:03:17.326Z[39m[37m[22m - Hash: [1m[37mb6c3a22d7f745275[39m[37m[22m - Time: [1m[37m84[39m[37m[22mms[0m[39m
+[1m[31m[39m[22m
+[1m[31m[0m[91mError: [39m[31m[0m[96msrc/app/app.component.ts[0m:[93m5[0m:[93m14[0m - [91merror[0m[90m NG8001: [0m'router-outlet' is not a known element:[39m[22m
+[1m[31m1. If 'router-outlet' is an Angular component, then verify that it is part of this module.[39m[22m
+[1m[31m2. If 'router-outlet' is a Web Component then add 'CUSTOM_ELEMENTS_SCHEMA' to the '@NgModule.schemas' of this component to suppress this message.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[7m5[0m   template: `<router-outlet></router-outlet>`,[39m[22m
+[1m[31m[7m [0m [91m             ~~~~~~~~~~~~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[37m[39m
+[37m[91m✖[39m[37m Failed to compile.[39m
+[36m⠋[39m Generating browser application bundles...[2K[1G[36m⠙[39m Generating browser application bundles (phase: building)...[2K[1G[32m✔[39m Browser application bundle generation complete.
+[37m[39m
+[37m[0m[1mInitial Chunk Files[22m[2m | [22m[1mNames[22m  [2m | [22m[1mRaw Size[22m[0m[39m
+[37m[0m[92mmain.js[39m[37m            [2m | [22mmain   [2m | [22m[96m10.34 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[92mruntime.js[39m[37m         [2m | [22mruntime[2m | [22m [96m6.53 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m3 unchanged chunks[0m[39m
+[37m[0m[0m[39m
+[37m[0mBuild at: [1m[37m2023-11-01T09:03:58.734Z[39m[37m[22m - Hash: [1m[37m033f08292d33329d[39m[37m[22m - Time: [1m[37m137[39m[37m[22mms[0m[39m
+[1m[31m[39m[22m
+[1m[31m[0m[91mError: [39m[31m[0m[96msrc/app/app.component.ts[0m:[93m5[0m:[93m14[0m - [91merror[0m[90m NG8001: [0m'router-outlet' is not a known element:[39m[22m
+[1m[31m1. If 'router-outlet' is an Angular component, then verify that it is part of this module.[39m[22m
+[1m[31m2. If 'router-outlet' is a Web Component then add 'CUSTOM_ELEMENTS_SCHEMA' to the '@NgModule.schemas' of this component to suppress this message.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[7m5[0m   template: `<router-outlet></router-outlet>`,[39m[22m
+[1m[31m[7m [0m [91m             ~~~~~~~~~~~~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[37m[39m
+[37m[91m✖[39m[37m Failed to compile.[39m
+[36m⠋[39m Generating browser application bundles...[2K[1G[36m⠙[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠹[39m Generating browser application bundles (phase: sealing)...[2K[1G[36m⠸[39m Generating browser application bundles (phase: emitting)...[2K[1G[32m✔[39m Browser application bundle generation complete.
+[37m[39m
+[37m[0m[1mInitial Chunk Files[22m[2m | [22m[1mNames[22m  [2m | [22m[1mRaw Size[22m[0m[39m
+[37m[0m[92mmain.js[39m[37m            [2m | [22mmain   [2m | [22m[96m10.66 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[92mruntime.js[39m[37m         [2m | [22mruntime[2m | [22m [96m6.53 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m3 unchanged chunks[0m[39m
+[37m[0m[0m[39m
+[37m[0mBuild at: [1m[37m2023-11-01T09:04:14.215Z[39m[37m[22m - Hash: [1m[37m7dec094dbf7bf710[39m[37m[22m - Time: [1m[37m285[39m[37m[22mms[0m[39m
+[37m[39m
+[37m[92m✔[39m[37m Compiled successfully.[39m
+[36m⠋[39m Generating browser application bundles...[2K[1G[36m⠙[39m Generating browser application bundles (phase: emitting)...[2K[1G[32m✔[39m Browser application bundle generation complete.
+[37m[39m
+[37m[0m[1mInitial Chunk Files[22m[2m | [22m[1mNames[22m  [2m | [22m[1mRaw Size[22m[0m[39m
+[37m[0m[92mmain.js[39m[37m            [2m | [22mmain   [2m | [22m[96m10.66 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[92mruntime.js[39m[37m         [2m | [22mruntime[2m | [22m [96m6.53 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m3 unchanged chunks[0m[39m
+[37m[0m[0m[39m
+[37m[0mBuild at: [1m[37m2023-11-01T09:04:16.722Z[39m[37m[22m - Hash: [1m[37mdd744dcb096e44f0[39m[37m[22m - Time: [1m[37m108[39m[37m[22mms[0m[39m
+[37m[39m
+[37m[92m✔[39m[37m Compiled successfully.[39m
+[36m⠋[39m Generating browser application bundles...[2K[1G[36m⠙[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠹[39m Generating browser application bundles (phase: emitting)...[2K[1G[32m✔[39m Browser application bundle generation complete.
+[37m[39m
+[37m[0m[1mInitial Chunk Files[22m[2m | [22m[1mNames[22m  [2m | [22m[1mRaw Size[22m[0m[39m
+[37m[0m[92mmain.js[39m[37m            [2m | [22mmain   [2m | [22m[96m10.66 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[92mruntime.js[39m[37m         [2m | [22mruntime[2m | [22m [96m6.53 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m3 unchanged chunks[0m[39m
+[37m[0m[0m[39m
+[37m[0mBuild at: [1m[37m2023-11-01T09:05:23.379Z[39m[37m[22m - Hash: [1m[37m5baf23d235dc8a0c[39m[37m[22m - Time: [1m[37m170[39m[37m[22mms[0m[39m
+[37m[39m
+[37m[92m✔[39m[37m Compiled successfully.[39m
+[36m⠋[39m Generating browser application bundles...[2K[1G[36m⠙[39m Generating browser application bundles (phase: emitting)...[2K[1G[32m✔[39m Browser application bundle generation complete.
+[37m[39m
+[37m[0m[1mInitial Chunk Files[22m[2m | [22m[1mNames[22m  [2m | [22m[1mRaw Size[22m[0m[39m
+[37m[0m[92mmain.js[39m[37m            [2m | [22mmain   [2m | [22m[96m10.61 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[92mruntime.js[39m[37m         [2m | [22mruntime[2m | [22m [96m6.53 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m3 unchanged chunks[0m[39m
+[37m[0m[0m[39m
+[37m[0mBuild at: [1m[37m2023-11-01T09:05:34.409Z[39m[37m[22m - Hash: [1m[37m10c3401381255eae[39m[37m[22m - Time: [1m[37m130[39m[37m[22mms[0m[39m
+[37m[39m
+[37m[92m✔[39m[37m Compiled successfully.[39m
+[36m⠋[39m Generating browser application bundles...[2K[1G[36m⠙[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠹[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠸[39m Generating browser application bundles (phase: sealing)...[2K[1G[32m✔[39m Browser application bundle generation complete.
+[37m[39m
+[37m[0m[1mInitial Chunk Files[22m[2m | [22m[1mNames[22m  [2m | [22m[1mRaw Size[22m[0m[39m
+[37m[0m[92mmain.js[39m[37m            [2m | [22mmain   [2m | [22m[96m10.61 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[92mruntime.js[39m[37m         [2m | [22mruntime[2m | [22m [96m6.53 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m3 unchanged chunks[0m[39m
+[37m[0m[0m[39m
+[37m[0mBuild at: [1m[37m2023-11-01T09:10:24.327Z[39m[37m[22m - Hash: [1m[37m71bb8acc22ec20be[39m[37m[22m - Time: [1m[37m405[39m[37m[22mms[0m[39m
+[37m[39m
+[37m[92m✔[39m[37m Compiled successfully.[39m
+[36m⠋[39m Generating browser application bundles...[2K[1G[36m⠙[39m Generating browser application bundles (phase: emitting)...[2K[1G[32m✔[39m Browser application bundle generation complete.
+[37m[39m
+[37m[0m5 unchanged chunks[0m[39m
+[37m[0m[0m[39m
+[37m[0mBuild at: [1m[37m2023-11-01T09:10:25.931Z[39m[37m[22m - Hash: [1m[37m71bb8acc22ec20be[39m[37m[22m - Time: [1m[37m118[39m[37m[22mms[0m[39m
+[37m[39m
+[37m[92m✔[39m[37m Compiled successfully.[39m
+[36m⠋[39m Generating browser application bundles...[2K[1G[36m⠙[39m Generating browser application bundles (phase: emitting)...[2K[1G[32m✔[39m Browser application bundle generation complete.
+[37m[39m
+[37m[0m[1mInitial Chunk Files[22m[2m | [22m[1mNames[22m  [2m | [22m[1mRaw Size[22m[0m[39m
+[37m[0m[92mmain.js[39m[37m            [2m | [22mmain   [2m | [22m[96m10.95 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[92mruntime.js[39m[37m         [2m | [22mruntime[2m | [22m [96m6.53 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m3 unchanged chunks[0m[39m
+[37m[0m[0m[39m
+[37m[0mBuild at: [1m[37m2023-11-01T09:10:43.591Z[39m[37m[22m - Hash: [1m[37mcb04ee331eaa0073[39m[37m[22m - Time: [1m[37m120[39m[37m[22mms[0m[39m
+[37m[39m
+[37m[92m✔[39m[37m Compiled successfully.[39m
+[36m⠋[39m Generating browser application bundles...[2K[1G[36m⠙[39m Generating browser application bundles (phase: building)...[2K[1G[32m✔[39m Browser application bundle generation complete.
+[37m[39m
+[37m[0m[1mInitial Chunk Files[22m[2m | [22m[1mNames[22m  [2m | [22m[1mRaw Size[22m[0m[39m
+[37m[0m[92mmain.js[39m[37m            [2m | [22mmain   [2m | [22m[96m11.05 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[92mruntime.js[39m[37m         [2m | [22mruntime[2m | [22m [96m6.53 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m3 unchanged chunks[0m[39m
+[37m[0m[0m[39m
+[37m[0mBuild at: [1m[37m2023-11-01T09:11:15.138Z[39m[37m[22m - Hash: [1m[37mcf5ad580b38a5860[39m[37m[22m - Time: [1m[37m169[39m[37m[22mms[0m[39m
+[37m[39m
+[37m[92m✔[39m[37m Compiled successfully.[39m
+[36m⠋[39m Generating browser application bundles...[2K[1G[36m⠙[39m Generating browser application bundles (phase: emitting)...[2K[1G[32m✔[39m Browser application bundle generation complete.
+[37m[39m
+[37m[0m[1mInitial Chunk Files[22m[2m | [22m[1mNames[22m  [2m | [22m[1mRaw Size[22m[0m[39m
+[37m[0m[92mmain.js[39m[37m            [2m | [22mmain   [2m | [22m[96m10.61 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[92mruntime.js[39m[37m         [2m | [22mruntime[2m | [22m [96m6.53 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m3 unchanged chunks[0m[39m
+[37m[0m[0m[39m
+[37m[0mBuild at: [1m[37m2023-11-01T09:11:24.585Z[39m[37m[22m - Hash: [1m[37m71bb8acc22ec20be[39m[37m[22m - Time: [1m[37m114[39m[37m[22mms[0m[39m
+[37m[39m
+[37m[92m✔[39m[37m Compiled successfully.[39m
+[36m⠋[39m Generating browser application bundles...[2K[1G[36m⠙[39m Generating browser application bundles (phase: emitting)...[2K[1G[32m✔[39m Browser application bundle generation complete.
+[37m[39m
+[37m[0m[1mInitial Chunk Files[22m[2m | [22m[1mNames[22m  [2m | [22m[1mRaw Size[22m[0m[39m
+[37m[0m[92mmain.js[39m[37m            [2m | [22mmain   [2m | [22m[96m11.05 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[92mruntime.js[39m[37m         [2m | [22mruntime[2m | [22m [96m6.53 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m3 unchanged chunks[0m[39m
+[37m[0m[0m[39m
+[37m[0mBuild at: [1m[37m2023-11-01T09:11:32.272Z[39m[37m[22m - Hash: [1m[37m59c97f92603039ee[39m[37m[22m - Time: [1m[37m115[39m[37m[22mms[0m[39m
+[37m[39m
+[37m[92m✔[39m[37m Compiled successfully.[39m
+[36m⠋[39m Generating browser application bundles...[2K[1G[36m⠙[39m Generating browser application bundles (phase: emitting)...[2K[1G[32m✔[39m Browser application bundle generation complete.
+[37m[39m
+[37m[0m[1mInitial Chunk Files[22m[2m | [22m[1mNames[22m  [2m | [22m[1mRaw Size[22m[0m[39m
+[37m[0m[92mmain.js[39m[37m            [2m | [22mmain   [2m | [22m[96m10.61 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[92mruntime.js[39m[37m         [2m | [22mruntime[2m | [22m [96m6.53 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m3 unchanged chunks[0m[39m
+[37m[0m[0m[39m
+[37m[0mBuild at: [1m[37m2023-11-01T09:11:43.139Z[39m[37m[22m - Hash: [1m[37m71bb8acc22ec20be[39m[37m[22m - Time: [1m[37m109[39m[37m[22mms[0m[39m
+[37m[39m
+[37m[92m✔[39m[37m Compiled successfully.[39m
+[36m⠋[39m Generating browser application bundles...[2K[1G[36m⠙[39m Generating browser application bundles (phase: building)...[2K[1G[32m✔[39m Browser application bundle generation complete.
+[37m[39m
+[37m[0m[1mInitial Chunk Files[22m[2m | [22m[1mNames[22m  [2m | [22m[1mRaw Size[22m[0m[39m
+[37m[0m[92mmain.js[39m[37m            [2m | [22mmain   [2m | [22m[96m11.09 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[92mruntime.js[39m[37m         [2m | [22mruntime[2m | [22m [96m6.53 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m3 unchanged chunks[0m[39m
+[37m[0m[0m[39m
+[37m[0mBuild at: [1m[37m2023-11-01T09:11:51.770Z[39m[37m[22m - Hash: [1m[37m82375f9f05778302[39m[37m[22m - Time: [1m[37m139[39m[37m[22mms[0m[39m
+[37m[39m
+[37m[92m✔[39m[37m Compiled successfully.[39m
+[36m⠋[39m Generating browser application bundles...[2K[1G[36m⠙[39m Generating browser application bundles (phase: building)...[2K[1G[36m⠹[39m Generating browser application bundles (phase: sealing)...[2K[1G[36m⠸[39m Generating browser application bundles (phase: sealing)...[2K[1G[36m⠼[39m Generating browser application bundles (phase: emitting)...[2K[1G[32m✔[39m Browser application bundle generation complete.
+[37m[39m
+[37m[0m[1mInitial Chunk Files[22m[2m | [22m[1mNames[22m  [2m | [22m[1mRaw Size[22m[0m[39m
+[37m[0m[92mmain.js[39m[37m            [2m | [22mmain   [2m | [22m[96m10.61 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[92mruntime.js[39m[37m         [2m | [22mruntime[2m | [22m [96m6.53 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m3 unchanged chunks[0m[39m
+[37m[0m[0m[39m
+[37m[0mBuild at: [1m[37m2023-11-01T09:30:32.737Z[39m[37m[22m - Hash: [1m[37m1333f742a3ee638f[39m[37m[22m - Time: [1m[37m841[39m[37m[22mms[0m[39m
+[37m[39m
+[37m[92m✔[39m[37m Compiled successfully.[39m
+[36m⠋[39m Generating browser application bundles...[2K[1G[36m⠙[39m Generating browser application bundles (phase: sealing)...[2K[1G[32m✔[39m Browser application bundle generation complete.
+[37m[39m
+[37m[0m[1mInitial Chunk Files[22m[2m | [22m[1mNames[22m  [2m | [22m[1mRaw Size[22m[0m[39m
+[37m[0m[92mruntime.js[39m[37m         [2m | [22mruntime[2m | [22m [96m6.53 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m4 unchanged chunks[0m[39m
+[37m[0m[0m[39m
+[37m[0mBuild at: [1m[37m2023-11-01T09:30:34.406Z[39m[37m[22m - Hash: [1m[37m9c1e279865162052[39m[37m[22m - Time: [1m[37m124[39m[37m[22mms[0m[39m
+[37m[39m
+[37m[92m✔[39m[37m Compiled successfully.[39m
+[36m⠋[39m Generating browser application bundles...[2K[1G[36m⠙[39m Generating browser application bundles (phase: sealing)...[2K[1G[32m✔[39m Browser application bundle generation complete.
+[37m[39m
+[37m[0m[1mInitial Chunk Files[22m[2m | [22m[1mNames[22m  [2m | [22m[1mRaw Size[22m[0m[39m
+[37m[0m[92mmain.js[39m[37m            [2m | [22mmain   [2m | [22m[96m10.34 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[92mruntime.js[39m[37m         [2m | [22mruntime[2m | [22m [96m6.53 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m3 unchanged chunks[0m[39m
+[37m[0m[0m[39m
+[37m[0mBuild at: [1m[37m2023-11-01T09:31:08.986Z[39m[37m[22m - Hash: [1m[37m607bc1fd32baf5a9[39m[37m[22m - Time: [1m[37m136[39m[37m[22mms[0m[39m
+[37m[39m
+[37m[92m✔[39m[37m Compiled successfully.[39m
+[36m⠋[39m Generating browser application bundles...[2K[1G[32m✔[39m Browser application bundle generation complete.
+[37m[39m
+[37m[0m[1mInitial Chunk Files[22m[2m | [22m[1mNames[22m  [2m | [22m[1mRaw Size[22m[0m[39m
+[37m[0m[92mmain.js[39m[37m            [2m | [22mmain   [2m | [22m[96m10.46 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[92mruntime.js[39m[37m         [2m | [22mruntime[2m | [22m [96m6.53 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m3 unchanged chunks[0m[39m
+[37m[0m[0m[39m
+[37m[0mBuild at: [1m[37m2023-11-01T09:31:11.802Z[39m[37m[22m - Hash: [1m[37mc24b39ec84a8ecfe[39m[37m[22m - Time: [1m[37m93[39m[37m[22mms[0m[39m
+[1m[31m[39m[22m
+[1m[31m[0m[91mError: [39m[31m[0m[96mmodules/shell/ui/layout/src/lib/layout.component.html[0m:[93m1[0m:[93m1[0m - [91merror[0m[90m NG8001: [0m'main-view' is not a known element:[39m[22m
+[1m[31m1. If 'main-view' is an Angular component, then verify that it is part of this module.[39m[22m
+[1m[31m2. If 'main-view' is a Web Component then add 'CUSTOM_ELEMENTS_SCHEMA' to the '@NgModule.schemas' of this component to suppress this message.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[7m1[0m <main-view></main-view>[39m[22m
+[1m[31m[7m [0m [91m~~~~~~~~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m  [96mmodules/shell/ui/layout/src/lib/layout.component.ts[0m:[93m5[0m:[93m16[0m[39m[22m
+[1m[31m    [7m5[0m   templateUrl: './layout.component.html',[39m[22m
+[1m[31m    [7m [0m [96m               ~~~~~~~~~~~~~~~~~~~~~~~~~[0m[39m[22m
+[1m[31m    Error occurs in the template of component LayoutComponent.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[37m[39m
+[37m[91m✖[39m[37m Failed to compile.[39m
+[36m⠋[39m Generating browser application bundles...[2K[1G[36m⠙[39m Generating browser application bundles (phase: emitting)...[2K[1G[32m✔[39m Browser application bundle generation complete.
+[37m[39m
+[37m[0m[1mInitial Chunk Files[22m[2m | [22m[1mNames[22m  [2m | [22m[1mRaw Size[22m[0m[39m
+[37m[0m[92mmain.js[39m[37m            [2m | [22mmain   [2m | [22m[96m10.34 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[92mruntime.js[39m[37m         [2m | [22mruntime[2m | [22m [96m6.53 kB[39m[37m[2m | [22m[0m[39m
+[37m[0m[0m[39m
+[37m[0m3 unchanged chunks[0m[39m
+[37m[0m[0m[39m
+[37m[0mBuild at: [1m[37m2023-11-01T09:31:13.210Z[39m[37m[22m - Hash: [1m[37mc2c7dd65b68925c6[39m[37m[22m - Time: [1m[37m97[39m[37m[22mms[0m[39m
+[37m[39m
+[37m[92m✔[39m[37m Compiled successfully.[39m

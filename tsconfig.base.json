@@ -1,0 +1,25 @@
+{
+  "compileOnSave": false,
+  "compilerOptions": {
+    "sourceMap": true,
+    "declaration": false,
+    "moduleResolution": "node",
+    "experimentalDecorators": true,
+    "importHelpers": true,
+    "target": "ES2022",
+    "module": "ES2022",
+    "lib": ["ES2022", "dom"],
+    "baseUrl": "./",
+    "paths": {
+      "@smartfood/shell/feature": ["modules/shell/feature/src/index.ts"],
+      "@smartfood/shell/ui/layout": ["modules/shell/ui/layout/src/index.ts"],
+      "@smartfood/shell/ui/main-view": [
+        "modules/shell/ui/main-view/src/index.ts"
+      ],
+      "@smartfood/shell/ui/side-bar": [
+        "modules/shell/ui/side-bar/src/index.ts"
+      ],
+      "@smartfood/shell/ui/top-bar": ["modules/shell/ui/top-bar/src/index.ts"]
+    }
+  }
+}

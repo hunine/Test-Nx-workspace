@@ -1,0 +1,52 @@
+{
+  "name": "top-bar",
+  "$schema": "../../../../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "modules/shell/ui/top-bar/src",
+  "prefix": "lib",
+  "tags": [],
+  "projectType": "library",
+  "targets": {
+    "build": {
+      "executor": "@nx/angular:ng-packagr-lite",
+      "outputs": ["{workspaceRoot}/dist/{projectRoot}"],
+      "options": {
+        "project": "modules/shell/ui/top-bar/ng-package.json",
+        "tailwindConfig": "modules/shell/ui/top-bar/tailwind.config.js"
+      },
+      "configurations": {
+        "production": {
+          "tsConfig": "modules/shell/ui/top-bar/tsconfig.lib.prod.json"
+        },
+        "development": {
+          "tsConfig": "modules/shell/ui/top-bar/tsconfig.lib.json"
+        }
+      },
+      "defaultConfiguration": "production"
+    },
+    "test": {
+      "executor": "@nx/jest:jest",
+      "outputs": ["{workspaceRoot}/coverage/{projectRoot}"],
+      "options": {
+        "jestConfig": "modules/shell/ui/top-bar/jest.config.ts",
+        "passWithNoTests": true
+      },
+      "configurations": {
+        "ci": {
+          "ci": true,
+          "codeCoverage": true
+        }
+      }
+    },
+    "lint": {
+      "executor": "@nx/eslint:lint",
+      "outputs": ["{options.outputFile}"],
+      "options": {
+        "lintFilePatterns": [
+          "modules/shell/ui/top-bar/**/*.ts",
+          "modules/shell/ui/top-bar/**/*.html",
+          "modules/shell/ui/top-bar/package.json"
+        ]
+      }
+    }
+  }
+}
